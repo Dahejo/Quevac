@@ -48,12 +48,6 @@ const MapContainer = () => {
             {ListItems.map(location => 
                     <LocationList key={location.id} id={location.id} name={location.name} people={location.people} distance={location.distance} hours={location.hours} address={location.address} tel={location.tel} details={location.details} />)}
 
-            <p className='list-content'><strong>Centre de Vaccination COVID-Vaccination a l'Auto-Parc Colbert</strong><br />
-                12 people | 0.2km | 09:00 - 14:00<br />
-                Medical laboratory · 2400 Av. Dalton<br />
-                (XXX) XXX-XXXX<br />
-                Appointment not required for Covid Test
-            </p>
         </div>
 
      </div>

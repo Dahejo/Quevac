@@ -19,6 +19,10 @@ a {
     justify-content: space-evenly;
 }
 
+.justify-sp-btw {
+    justify-content: space-between;
+}
+
 .align-center {
     align-items: center;
 }
@@ -68,6 +72,10 @@ a {
 
 .padding-bottom-8 {
     padding-bottom: 8px;
+}
+
+.no-margin {
+    margin: 0;
 }
 
 @media screen and (max-width:960px) {
