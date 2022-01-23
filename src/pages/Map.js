@@ -1,12 +1,63 @@
-import React from "react";
-import './Map.css';
+import React from 'react';
+import "./Map.css";
+import { GoogleMap, LoadScript } from '@react-google-maps/api';
+import { ListItems } from '../components/ListItems';
+import LocationList from '../components/LocationList';
 
-function Map() {
-    return (
-        <div>
-            <h1>Map</h1>
+const MapContainer = () => {
+  
+  const mapStyles = {        
+    height: "720px",
+    width: "100%"};
+  
+  const defaultCenter = {
+    lat: 46.813877, lng: -71.207977
+  }
+
+  const [isClicked, setIsClicked] = React.useState(false)
+
+  function handleClick () {
+      setIsClicked(!isClicked)
+  }
+  
+  return (
+      <div>
+
+      {/* Google Map */}
+        <div onClick={handleClick} className={isClicked && 'show-list-button-display-none'}>
+            <LoadScript
+            googleMapsApiKey=''>
+                <GoogleMap
+                mapContainerStyle={mapStyles}
+                zoom={13}
+                center={defaultCenter}
+                />
+            </LoadScript>
         </div>
-    )
+
+        {/* List Button */}
+        <div className='flex justify-center'>
+            <button onClick={handleClick} className={isClicked? 'show-list-button-display-none' : 'show-list-button'}><strong>Show List</strong></button>
+            <button onClick={handleClick} className={isClicked? 'show-list-button' : 'show-list-button-display-none'}><strong>Hide List</strong></button>
+        </div>
+
+        {/* List Content */}
+        <div onClick={handleClick} className={!isClicked && 'show-list-button-display-none'}>
+            <hr className='list-horizontal-line' />
+
+            {ListItems.map(location => 
+                    <LocationList key={location.id} id={location.id} name={location.name} people={location.people} distance={location.distance} hours={location.hours} address={location.address} tel={location.tel} details={location.details} />)}
+
+            <p className='list-content'><strong>Centre de Vaccination COVID-Vaccination a l'Auto-Parc Colbert</strong><br />
+                12 people | 0.2km | 09:00 - 14:00<br />
+                Medical laboratory · 2400 Av. Dalton<br />
+                (XXX) XXX-XXXX<br />
+                Appointment not required for Covid Test
+            </p>
+        </div>
+
+     </div>
+  )
 }
 
-export default Map;
+export default MapContainer;
