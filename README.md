@@ -1,3 +1,6 @@
+<img width="500" alt="Screen Shot 2022-01-23 at 17 15 16" src="https://user-images.githubusercontent.com/89917595/150700103-938d8847-1393-493e-96ea-6a61a9ef04fe.png">
+
+
 ## Inspiration
 The long-lasting history of Covid 19 seems endless. We are in a situation where we need to be sensitive about our health and infection. However, see a line to get tested on Christmas in Quebec. Definitely not a pleasant experience on Holidays, right? Also, we can face the possibility of exposure of covid due to a long line. We already recognized there is an existing app in Quebec for this job. However, when we checked its rate there were lots of comments that the app is not working very smoothly. That was the starting point of our project, Quevac.
 
