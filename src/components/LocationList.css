@@ -1,0 +1,18 @@
+.location-list-content {
+    padding-left: 10px;
+    width: 380px;
+    font-size: 12px;
+}
+
+.reserve-button {
+    background-color: #7B9ACC;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    align-items: center;
+    padding: 10px 0;
+    margin-right: 15px;
+}

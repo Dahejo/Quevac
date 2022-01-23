@@ -1,2 +1,49 @@
+.home-padding-top {
+    padding-top: 36px;
+}
 
-  
+.justify-between {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    margin-left: 0;
+}
+
+.setting-icon-color {
+    color: #7B9ACC;
+    width: 32px;
+    margin-right: 20px;
+}
+
+.home-img {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 32px;
+}
+
+.covid-policy-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 32px;
+    margin-left: 20px;
+    width: 370px;
+}
+
+.covid-policy-item {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 350px;
+}
+
+.new {
+    width: 30px;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}

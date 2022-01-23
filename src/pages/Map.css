@@ -1,0 +1,28 @@
+.show-list-button {
+    color: #7B9ACC;
+    background-color: white;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    width: 150px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.show-list-button-display-none {
+    display: none;
+}
+
+.list-content {
+    font-size: 12px;
+}
+
+.list-horizontal-line {
+    margin: 10px 0;
+    border-style: none;
+    border-top-style: solid;
+    border-color: #dcdcdc;
+    border-width: 1px;
+}

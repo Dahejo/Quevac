@@ -1,0 +1,26 @@
+.card-bg-image {
+    background-image: url("/public/resources/images/card-bg.png");
+    height: 713px;
+}
+
+.card-page-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.vaccine-card {
+    background-color: #fff;
+    margin: auto;
+    width: 350px;
+    height: 500px;
+    border-radius: 5%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 20px;
+    padding-top: 10px;
+    text-align: center;
+}
