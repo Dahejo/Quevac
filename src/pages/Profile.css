@@ -1,0 +1,33 @@
+.profile-status-container {
+    background-image: url("/public/resources/images/profile-status-card.png");
+    width: 327px;
+    height: 167px;
+    /* margin-left: 36px; */
+    /* background-color: #cccccc; */
+}
+
+.profile-status-text {
+    width: 130px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 125px;
+    margin-right: 37px;
+}
+
+.profile-getvc-banner-img {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-width-140 {
+    width: 140px;
+}
+
+.profile-width-312 {
+    width: 312px;
+}
+
+.profile-result-hr {
+    border: 0.5px solid lightgray;
+}
