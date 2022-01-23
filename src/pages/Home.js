@@ -1,11 +1,10 @@
 import React from "react";
+import './Home.css';
 
 function Home() {
     return (
         <div>
-            <a href="/card">Card</a>
-            <a href="/profile">Profile</a>
-            <a href="/map">Map</a>
+            <h1>Home</h1>
         </div>
     )
 }

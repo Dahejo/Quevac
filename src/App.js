@@ -6,6 +6,7 @@ import Home from "./pages/Home"
 import Card from "./pages/Card"
 import Profile from "./pages/Profile"
 import Map from "./pages/Map"
+import Tab from "./components/Tab"
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/profile' element={<Profile />} />
         <Route path='/map' element={<Map />} />
       </Routes>
+      <Tab />
     </BrowserRouter>
   );
 }

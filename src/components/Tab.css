@@ -1,0 +1,6 @@
+.tab-bar-container {
+    position: fixed;
+    bottom: 0;
+    background-color: #FAFAFA;
+    height: 67px;
+}
