@@ -27,7 +27,7 @@ export const ListItems = [
         hours: "09:00 - 14:00",
         address: "84 Rue Dalhousie, Québec",
         tel: "000-000-0000",
-        details: "not reuireds"
+        details: "Appointment required"
     },
     {
         id: 4,
@@ -37,6 +37,56 @@ export const ListItems = [
         hours: "09:00 - 14:00",
         address: "750 Bd Lebourgneuf, Québec",
         tel: "000-000-0000",
-        details: "not reuireds"
-    }
+        details: "Appointment required"
+    },
+    {
+        id: 5,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 6,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 7,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 8,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 9,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
 ]

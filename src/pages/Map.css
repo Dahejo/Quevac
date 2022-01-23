@@ -15,8 +15,22 @@
     display: none;
 }
 
+.hide-list-button {
+    position: fixed;
+}
+
+.hide-list-button-bar {
+    position: fixed;
+    height: 70px;
+    background-color: #fff;
+}
+
 .list-content {
     font-size: 12px;
+}
+
+.list-content-top-padding {
+    margin-top: 70px;
 }
 
 .list-horizontal-line {

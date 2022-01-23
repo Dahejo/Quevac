@@ -3,7 +3,7 @@ import './LocationList.css'
 
 function LocationList({name,people,distance,hours,address,tel,details}) {
     return (
-        <div>
+        <div className='list-container'>
 
             {/* list content and reserve button */}
             <div className='flex justify-sp-evenly'>
