@@ -1,70 +1,20 @@
-# Getting Started with Create React App
+##Inspiration
+The long-lasting history of Covid 19 seems endless. We are in a situation where we need to be sensitive about our health and infection. However, see a line to get tested on Christmas in Quebec. Definitely not a pleasant experience on Holidays, right? Also, we can face the possibility of exposure of covid due to a long line. We already recognized there is an existing app in Quebec for this job. However, when we checked its rate there were lots of comments that the app is not working very smoothly. That was the starting point of our project, Quevac.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##What it does
+Quevac has three main functions. On our home screen, users can check positive cases in Quebec, changes in Policies that are updating continuously, find Testing Centers by tapping a map. By just showing PCR test centers sorted by distance and number of people currently waiting. Also, people can reserve their place to get tested or at least give a center a call. Quevac will allow people to use their QR codes to verify their immunization records. We expect that Quevac will give people the best user experience with an auto maximum brightness setting for the QR code. Rather than keeping papers of PCR results, just file your test results in Quevac, including self-tests! Quebec will also send you notifications if you got the result from a testing center and save it automatically.
 
-## Available Scripts
+##How we built it
+We brainstormed our idea using Figma's Figjam and designed our demo app on Figma's design file. Then, we built our app using react.js. Having two members as developers, after assigning tasks, we built each tab on our local laptop and merged via GitHub. The presentation document was made using Canva.
 
-In the project directory, you can run:
+##Challenges we ran into
+We had several challenges while going through this hackathon. The challenges can be divided into two categories, which are theme and functionality. First, as soon as we saw the theme, smart city, we began connecting our daily lives in our city with technology. We then tried to focus on our inconvenience and wanted to help as many people as possible across the country. Finally, we could come up with a service that provides up-to-date information about Covid-19. Another challenge is related to our service’s functionality. We wanted to embed the map service and card flip function for a better user experience. However, we have never used these two functionalities for our whole development lives. Nevertheless, as students who are passionate about investigating new technologies and making them ours, we searched and studied for the functionalities we wanted. As a result, we could manage to embed them on our app. The card-flip functionality had deployed well but the map service had an error. We would like to study more in order to fix the error and customize it for our app.
 
-### `npm start`
+##Accomplishments that we're proud of
+First and foremost, we are proud of the accomplishments that we have come up with excellent services regarding Covid-19. Not only providing a real-time waitlist of each testing center, our app stores all of the vaccination information of each user. This is what we think people want and through our app, it’s possible! Moreover, as we mentioned above, we are happy that we have used functionalities that we have never used before. Thank you to Uhack for letting us give it a try and improve our skills.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##What we learned
+Besides the map and card-flip functionalities, we learned how to collaborate with a team during a short period of time and how to efficiently assign tasks to each member. Since Uhack is the first-ever hackathon that we all three have participated in as a team and it is only a 24-hour hackathon, it was definitely not easy for us to proceed in a timely manner. Based on each member’s specialty, however, we assigned work to each member and tried our best to accomplish duties on time with high quality. Furthermore, since the workload was spread all over the team, if one member modified the work, it was difficult for the other members to notice it. Therefore, we kept communicating and notifying each other what we have processed, done, and modified. During this amazing hackathon, we were able to learn the importance of communication and could enhance our teamwork agility.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+##What's next for Quevac
+Our further project is to develop a mobile app for Quevac.
