@@ -1,4 +1,4 @@
-<img width="500" alt="Screen Shot 2022-01-23 at 17 15 16" src="https://user-images.githubusercontent.com/89917595/150700103-938d8847-1393-493e-96ea-6a61a9ef04fe.png">
+<img width="700" alt="Screen Shot 2022-01-23 at 17 15 16" src="https://user-images.githubusercontent.com/89917595/150700103-938d8847-1393-493e-96ea-6a61a9ef04fe.png">
 
 
 ## Inspiration
