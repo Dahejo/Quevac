@@ -1,0 +1,41 @@
+.verify-card-front {
+    background-image: url("/public/resources/images/vaccine-card-front.png");
+    width: 375px;
+    height: 620px;
+}
+
+.vaccine-card-back {
+    background-image: url("/public/resources/images/vaccine-card-back.png");
+    width: 375px;
+    height: 620px;
+}
+
+.card-title {
+    width: 320px;
+    margin: 0;
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.card-name {
+    width: 320px;
+    margin: 0;
+    font-size: 32px;
+    padding-top: 360px;
+    text-align: center;
+}
+
+.card-detail {
+    padding-left: 40px;
+    padding-top: 60px;
+}
+
+.card-back-bt {
+    margin-top: 32px;
+    padding: 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    background-color: white;
+}

@@ -6,11 +6,15 @@
     /* background-color: #cccccc; */
 }
 
+.profile-name {
+    width: 140px;
+}
+
 .profile-status-text {
-    width: 130px;
+    width: 100px;
     display: flex;
     align-items: flex-end;
-    margin-bottom: 125px;
+    margin-bottom: 110px;
     margin-right: 37px;
 }
 

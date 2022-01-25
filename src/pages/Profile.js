@@ -9,8 +9,8 @@ function Profile() {
     return (
         <div className="padding-top-48">
             <div className="flex profile-status-container">
-                <div className="profile-width-140 padding-left-24">
-                    <h2 className="padding-bottom-8"><strong>Hejin Jeong</strong></h2>
+                <div className="profile-width-140 padding-left-12">
+                    <h2 className="padding-bottom-8 profile-name"><strong>Hejin Jeong</strong></h2>
                     <p>Female<br/>
                     1999.04.25<br/>
                     (581) 123-4567<br/></p>
