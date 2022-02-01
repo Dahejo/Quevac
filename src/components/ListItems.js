@@ -17,26 +17,76 @@ export const ListItems = [
         hours: "09:00 - 14:00",
         address: "50 Rte du Président-Kennedy #180, Lévis, QC G6V 6W8, Canada",
         tel: "000-000-0000",
-        details: "not reuireds"
+        details: "Appointment not required for Covid Test"
     },
     {
         id: 3,
         name: "Centre de Dépistage COVID-19-Cdd Port de Québec",
-        people: 12,
+        people: 5,
         distance: 0.5,
         hours: "09:00 - 14:00",
         address: "84 Rue Dalhousie, Québec",
         tel: "000-000-0000",
-        details: "not reuireds"
+        details: "Appointment required"
     },
     {
         id: 4,
-        name: "fourth",
-        people: 12,
-        distance: 0.2,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
         hours: "09:00 - 14:00",
-        address: "saldfj",
+        address: "750 Bd Lebourgneuf, Québec",
         tel: "000-000-0000",
-        details: "not reuireds"
-    }
+        details: "Appointment required"
+    },
+    {
+        id: 5,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 6,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 7,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 8,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
+    {
+        id: 9,
+        name: "CDÉ COVID-19 Ma Clinique Lebourneuf",
+        people: 15,
+        distance: 1.0,
+        hours: "09:00 - 14:00",
+        address: "750 Bd Lebourgneuf, Québec",
+        tel: "000-000-0000",
+        details: "Appointment required"
+    },
 ]
